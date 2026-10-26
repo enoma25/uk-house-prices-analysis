@@ -26,14 +26,10 @@ Python (pandas, matplotlib) analysis of 72 years of UK house prices, adjusted fo
 - Real prices peaked in 2007 at about £354,000 (in 2025 money). They are about 23% below that peak today.
 - The sharpest real-terms annual falls were in 1990 (-14%), 1975 (-13%), 2023 (-11%), 1991 (-11%) and 2008 (-10%).
 
-![Nominal vs real](outputs/nominal_vs_real.png)
-![Real growth by decade](outputs/real_growth_by_decade.png)
-
 ## How to run
 ```
 pip install pandas matplotlib
 python uk_house_prices_analysis.py
 ```
-Outputs are saved to the `outputs` folder.
 - This is a national average, so it hides big regional differences.
 - Nominal growth is not adjusted for changes in the type or quality of homes sold.
